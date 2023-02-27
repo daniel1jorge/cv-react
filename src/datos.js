@@ -67,7 +67,39 @@ export const allData ={
             "link":"https://api.whatsapp.com/send?phone=5493794223659",
             "icon":"https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360"
         }
-    ]
+    ],
+    "certifications": [
+        {
+            "Where": "UTN Buenos Aires",
+            "description": "DevOps, Integraciones y agilidad continua", 
+            "date": "Abril 2022",
+            "imagen":"ubicacion.jpg"
+        },
+        {
+            "Where": "UTN Buenos Aires",
+            "description": "Desarrollo con nodeJS", 
+            "date": "Febrero 2022",
+            "imagen":"ubicacion.jpg"
+        },
+        {
+            "Where": "Codo a Codo 4.0",
+            "description": "FullStack con java", 
+            "date": "Marzo 2021",
+            "imagen":"ubicacion.jpg"
+        },
+        {
+            "Where": "Utn Resistencia",
+            "description": " Diseño de Sitios dinamicos con php y mysql", 
+            "date": "Agosto 2021",
+            "imagen":"ubicacion.jpg"
+        },
+        {
+            "Where": "Utn Resistencia",
+            "description": " Html/css", 
+            "date": "Marzo 2018",
+            "imagen":"ubicacion.jpg"
+        }
+    ],
 
 
 }
