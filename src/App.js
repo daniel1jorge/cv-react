@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './w3.css';
+import Main from './Components/Main'
+import Footer from './Components/Footer'
+import Aside from './Components/Aside'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w3-light-grey">
+      <div className='w3-content w3-margin-top' style={{maxwidth:'1400px'}}>
+        <div className='w3-row-padding'>
+        <Aside/>
+        <Main/>
+        </div>
+      </div>
+      <Footer/>
     </div>
   );
 }
