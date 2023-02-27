@@ -64,7 +64,7 @@ function IsActual(date){
 function MainEducation() {
   return (
     <div className="w3-container w3-card w3-white">
-        <h2 className="w3-text-grey w3-padding-16"><i className="w3-margin-right w3-xxlarge w3-text-blue"></i>educación</h2>
+        <h2 className="w3-text-grey w3-padding-16"><i className="w3-margin-right w3-xxlarge w3-text-blue"></i>Educación</h2>
         <AllEstudie/>
     </div>
   ); 
@@ -75,6 +75,7 @@ function AllEstudie(){
     <>
     {data.studies.map((estudi, index) => (
       <div className="w3-container" key={index}>
+        <h5 className="w3-opacity"><b>{estudi.Where}</b></h5>
         <h5 className="w3-opacity"><b>{estudi.description}</b></h5>
         <h6 className="w3-text-blue"><i className="w3-margin-right"></i>{estudi.date_start} - {IsActual(estudi.date_end)}</h6>
         <p>{estudi.tasks}</p>

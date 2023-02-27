@@ -38,6 +38,12 @@ function AsideInfo() {
          
           <p className="w3-large w3-text-theme"><b><i className="w3-margin-right w3-text-teal"></i>Idioma</b></p>
           <Languages/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <SocialMedia/>
+
           
     </div>
   ); 
@@ -64,3 +70,14 @@ export function Languages(){
         </div>
       );
   }
+
+  export function SocialMedia(){
+    return (
+      <div className='w3-center'>
+      {data.socialNetworks.map((social, index) => (
+        <div key={index} className="w3-display-container"><p><i ></i><a target='_blank' rel="noreferrer" href={social.link}><img src={social.icon} style={{width:'40%'}} alt={social.icon}/></a></p>
+        </div>
+        ))}
+      </div>
+    );
+}
