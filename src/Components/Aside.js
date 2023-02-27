@@ -30,7 +30,7 @@ function AsideImage() {
 function AsideInfo() {
   return (
     <div className="w3-container">
-          <p><i className="w3-margin-right w3-large w3-text-teal"></i>{data.profession}</p>
+          <h2><i className="w3-margin-right w3-large w3-text-teal"></i>{data.profession}</h2>
           <p><i className="w3-margin-right w3-large w3-text-teal"></i><IoIosAt style={{fontSize:32}}/>{data.email}</p>
           <p><i className="w3-margin-right w3-large w3-text-teal"></i><IoIosPin style={{fontSize:32}}/>{data.address.city} - {data.address.street}</p>
           <TelCelular/>
